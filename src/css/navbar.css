@@ -1,0 +1,11 @@
+.navbar {
+  /* background-color: rgba(34, 38, 42, 0.6); */
+  background-color: rgb(75, 0, 130, 0.4);
+  /* opacity: 60%; */
+  height: 12vh;
+}
+.navlogo {
+  opacity: 100%;
+  width: 30vh;
+  height: 10vh;
+}

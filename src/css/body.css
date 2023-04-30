@@ -1,0 +1,111 @@
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 20px;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.bodyHeading {
+  color: rgb(75, 0, 130);
+}
+.navbar {
+  padding-bottom: 4rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.nav-item {
+  padding: 0 15px;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.pad {
+  padding-left: 19%;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3 rem;
+  line-height: 1.2;
+  color: white;
+  padding-bottom: 5%;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5 rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 5%;
+}
+h2 {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.title-image {
+  width: 70%;
+}
+#features {
+  padding: 10% 10%;
+}
+#icon {
+  color: #ef8172;
+  padding-bottom: 2px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 10px;
+}
+p {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+button {
+  --c: rgb(75, 0, 130, 0.4); /* the color*/
+
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+}
+button:hover {
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+  color: #fff;
+}
+button:active {
+  box-shadow: 0 0 9e9Q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
+
+button {
+  font-family: system-ui, sans-serif;
+  font-size: 2.1rem;
+  cursor: pointer;
+  padding: 0.1em 0.6em;
+  font-weight: bold;
+  border: none;
+  border-radius: 10%;
+  color: rgb(75, 0, 130);
+}
