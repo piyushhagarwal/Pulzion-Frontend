@@ -1,0 +1,12 @@
+.body1 img {
+  height: 50vh;
+  width: 50%;
+}
+
+.carousel-item h3 {
+  font-size: 3.5vh;
+}
+
+.carousel-item p {
+  font-size: 2vh;
+}

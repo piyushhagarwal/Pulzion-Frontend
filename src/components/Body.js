@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/body.css";
+import { Link } from "react-router-dom";
 
 export default function Body() {
   return (
@@ -12,8 +13,12 @@ export default function Body() {
               reducing absenteeism among women and girls in underprivileged
               communities.
             </h1>
-            <button style={{ marginRight: " 2%" }}>Donate</button>
-            <button style={{ marginRight: " 2%" }}>Raise Campaign</button>
+            <a href="#allCampaigns">
+              <button style={{ marginRight: " 2%" }}>Donate</button>
+            </a>
+            <Link to="/createCampaign">
+              <button style={{ marginRight: " 2%" }}>Raise Campaign</button>
+            </Link>
           </div>
           <div class="col-lg-6">
             <img

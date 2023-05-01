@@ -1,6 +1,7 @@
 .allCampaigns {
-  margin-top: 10vh;
+  margin-top: 15vh;
   background-color: rgb(75, 0, 130, 0.4);
+  padding-bottom: 12vh;
 }
 
 .heading {
@@ -60,6 +61,10 @@
   color: #fff;
 }
 
+.ag-courses-item_link:hover .ag-courses-item_desc {
+  text-decoration: none;
+  color: #fff;
+}
 .ag-courses-item_link:hover .ag-courses-item_date-box {
   text-decoration: none;
   color: #fff;
@@ -84,6 +89,19 @@
   z-index: 2;
   position: relative;
 }
+.ag-courses-item_desc {
+  min-height: 87px;
+  margin: 0 0 25px;
+
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(75, 0, 130);
+
+  z-index: 2;
+  position: relative;
+}
 .ag-courses-item_date-box {
   font-size: 18px;
   color: rgb(75, 0, 130);
@@ -93,7 +111,7 @@
 }
 .ag-courses-item_date {
   font-weight: bold;
-  color: #f9b234;
+  color: rgb(75, 0, 130, 0.6);
 
   -webkit-transition: color 0.5s ease;
   -o-transition: color 0.5s ease;

@@ -28,14 +28,14 @@ export default function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#blogs">
+                <a class="nav-link" href="#allCampaigns">
                   Campaigns
                 </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#gallery">
-                  Contact Us
+                <a class="nav-link" href="#aboutUs">
+                  About Us
                 </a>
               </li>
             </ul>
